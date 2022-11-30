@@ -80,6 +80,8 @@ footer{
     background-color:lightslategray ;
     bottom:0;
     clear:left;
+    text-align:center;
+    padding:15px;
     
 
 
@@ -87,7 +89,7 @@ footer{
 }
 
 .mainSection{
-    padding-top:25px;
+    
     float:left;
     width:100%;
     
