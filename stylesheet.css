@@ -112,7 +112,9 @@ footer{
 .mainSection .sectionContent:hover{
     width: 33%;
     margin:0;
- 
+    float:left;
+    background-color:lightblue;
+    border-radius: 5%;  }
     
 
 
