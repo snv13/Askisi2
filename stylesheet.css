@@ -38,6 +38,7 @@ header{
     text-decoration: none;
     color:white;
     font-size:larger;
+    font-family:coquette-w00-light,sans-serif;
 }
 
 
@@ -92,7 +93,7 @@ footer{
     
     float:left;
     width:100%;
-    
+
     text-align:center;
     
     
@@ -100,10 +101,24 @@ footer{
 }
 
 .mainSection .sectionContent{
-    width:33%;
+    width: 30%;
+    margin:1.6%;
     float:left;
-  
+    background-color:lightblue;
+    border-radius: 5%;  
     
-   
 }
 
+.mainSection .sectionContentTwoEl{
+    width:40%;
+    
+    margin:5%;
+    float:left;
+    background-color:lightblue;
+    border-radius: 5%;
+}
+
+.mainSection .sectionContentTwoEl:hover{
+   width:45%;
+   margin:2%;
+}
