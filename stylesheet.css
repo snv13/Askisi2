@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/*styles background and fonts*/
 body {
     margin: 0;
     height: 100%;
@@ -20,20 +21,8 @@ main {
     padding-top: 5em;
 }
 
-header {
 
-    position: fixed;
-    width: 100%;
-    height: 5em;
-    align-items: center;
-    background-color: rgba(119, 136, 153, 0.527);
-    top: 0;
-    right: 0;
-    clear: left;
-
-
-}
-
+/*styles the menu bar on top of every page*/
 #navigation {
     float: right;
     font-family: 'Calibri', Times, serif;
@@ -41,24 +30,25 @@ header {
 
 }
 
+/*puts the logo on the top left*/
 #title {
     float: left;
     padding: 1.5em 1em;
-    text-decoration: none;
-    color: white;
-    font-size: larger;
 }
 
+/*puts the image on tech.html on the right*/
 .slidebanner {
     float: right;
     margin: 2% 2%;
 }
 
+/*puts the form on tech.html on the left*/
 .form{
     margin: 5% 0% 0% 5%;
     width: 90%;
 }
 
+/*styles the text on tech.html*/
 .techDescr {
     font-family: 'Calibri', Times, serif;
     font-size: larger;
@@ -67,6 +57,7 @@ header {
     text-align: left;
 }
 
+/*styles the menu on every page and prepares for a hover*/
 .navItem {
     text-decoration: none;
     color: white;
@@ -74,25 +65,27 @@ header {
     transition: all 0.1s ease-in-out 0.05s;
 }
 
+/*makes the menu hover with a smooth short animation*/
 .navItem:hover {
     color: lightblue;
     font-size: large;
     transition: all 0.1s ease-in-out 0.05s;
 }
 
-
+/*styles the txt on the main page*/
 .pageTitle {
     text-align: center;
     font-size: 24px;
 }
 
-
+/*styles some headers on all pages*/
 .header {
     text-align: center;
     font-size: 42px;
     color: white;
 }
 
+/*styles the footer and puts it on the bottom*/
 footer {
     width: 100%;
     margin-top: 4.6%;
@@ -103,6 +96,7 @@ footer {
     text-align: center;
 }
 
+/*styles the footer and puts it on the bottom*/
 .mainSection,
 .sectionContent {
     float: left;
