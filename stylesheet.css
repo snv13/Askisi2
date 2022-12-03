@@ -11,6 +11,15 @@ main{
 }
 
 
+.wrapper{
+    width:100%;
+    min-width:30%;
+    max-width:100%;
+    float:left;
+
+
+}
+
 header{
     
     position:fixed;
@@ -51,6 +60,10 @@ input{
     
 }
 
+
+.containedImage{
+    max-width: 100%;
+}
 .slidebanner{
     
     border-radius: 0%;
@@ -116,6 +129,7 @@ footer{
     float:left;
     background-color:lightblue;
     border-radius: 5%;  
+    display:box;
     
     
 }
@@ -128,7 +142,7 @@ footer{
 
 .mainSection .sectionContentTwoEl{
     width:40%;
-    
+    display:box;
     margin:5%;
     float:left;
     background-color:lightblue;
