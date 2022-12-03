@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(224, 255, 255, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    padding-top: 5em;
+
+
+}
+
+
+header {
+
+    position: fixed;
+    width: 100%;
+    height: 5em;
+    align-items: center;
+    background-color: lightslategray;
+    top: 0;
+    right: 0;
+    clear: left;
+
+
+}
+
+#navigation {
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2em 2em;
+
+}
+
+#title {
+    float: left;
+    padding: 1.5em 1em;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+
+
+.slidebanner {
+
+    border-radius: 0%;
+    width: 100%;
+    height: 700px;
+    clear: left;
+}
+
+.navItem {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    transition: all 0.1s ease-in-out 0.05s;
+}
+
+.navItem:hover {
+    color: lightblue;
+    font-size: large;
+    transition: all 0.1s ease-in-out 0.05s;
+}
+
+
+.pageTitle {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.header {
+    text-align: center;
+    font-size: 42px;
+}
+
+footer {
+
+
+    width: 100%;
+    height: 5em;
+    align-items: center;
+    background-color: lightslategray;
+    bottom: 0;
+    clear: left;
+    text-align: center;
+    padding: 10px;
+
+
+
+
+}
+
+.mainSection,
+.sectionContent {
+    float: left;
+
+}
+
+.mainSection {
+    width: 100%;
+    text-align: center;
+}
+
+.sectionContent {
+
+    width: 400px;
+    margin: 5.93%;
+    margin-bottom: 2%;
+    box-shadow: black 0px 0px 10px;
+    border-radius: 80px;
+    padding-bottom: 20px;
+    transition: transform .2s;
+}
+
+.sectionContent:hover {
+    transform: scale(1.1);
+    box-shadow: black 0px 0px 30px;
+}
+
+.sectionDescr {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+
+.sectionLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.productsDescr {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: oblique;
+    text-align: center;
+}
+
+.frontImg {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+  }
+
