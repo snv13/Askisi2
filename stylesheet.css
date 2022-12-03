@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 /*styles background and fonts*/
 body {
     margin: 0;
@@ -16,11 +12,25 @@ body {
     color: white;
 }
 
-
+/*adjusts the size of the contents of main*/
 main {
     padding-top: 5em;
 }
 
+/*it creates the background color of the menu on all pages and adjusts the size and position of it*/
+header {
+
+    position: fixed;
+    width: 100%;
+    height: 5em;
+    align-items: center;
+    background-color: rgba(119, 136, 153, 0.527);
+    top: 0;
+    right: 0;
+    clear: left;
+
+
+}
 
 /*styles the menu bar on top of every page*/
 #navigation {
@@ -96,18 +106,24 @@ footer {
     text-align: center;
 }
 
-/*styles the footer and puts it on the bottom*/
+/*puts the blocks that are used on almost every page, on the left and uses
+ black font so the txt can be visible*/
 .mainSection,
 .sectionContent {
     float: left;
     color: black;
 }
 
+/*adjusts the width of the blocks and aligns the txt on the center*/
 .mainSection {
     width: 100%;
     text-align: center;
 }
 
+/*adjusts the background color of the blocks to white,
+adjusts the position of context, makes the border more circular
+,it creates a shadow on the block
+and it prepares for the hover animation*/
 .sectionContent {
     background-color: white;
     width: 450px;
@@ -118,11 +134,14 @@ footer {
     transition: transform .2s;
 }
 
+/*makes the block hover and transition with an animation
+when it hovers the shadow becomes more blury*/
 .sectionContent:hover {
     transform: scale(1.1);
     box-shadow: black 0px 0px 30px;
 }
 
+/*styles the description on some blocks*/
 .sectionDescr {
     font-family: 'Calibri', Times, serif;
     font-size: large;
@@ -134,23 +153,20 @@ footer {
     
 }
 
+/*it removes the style of a hyperlink to blend better with block
+,since the wholes block is a hyperlink*/
 .sectionLink {
     text-decoration: none;
     color: inherit;
 }
 
+/*it changes the color on the submenu so it can be more visible (inteli7.html,
+products-pc-parts.html, products-phones.html)*/
 .history a {
     color: rgb(233, 221, 62);
 }
 
-
-.productsDescr {
-    font-family: 'Calibri', Times, serif;
-    font-size: large;
-    font-style: oblique;
-    text-align: center;
-}
-
+/*makes images have curves and adjusts the size of them*/
 .curvyImg {
     object-fit: cover;
     width: 400px;
@@ -158,6 +174,7 @@ footer {
     border-radius: 100px;
   }
 
+/*makes images not appear distorted and adjusts their position*/
 .fixImg {
     margin: 2%;
     object-fit: cover;
@@ -165,30 +182,52 @@ footer {
     height: 150px;
 }
 
+/*adjusts the position of the form in tech.html*/
 form {
     margin-bottom: 2%;
     margin-right: 70%;
 }
 
+/*it adjusts the size for the block that asks for a picture of the receipt,
+so that the asterisk(*) on ther right is on the right spot*/
 #txtProof {    
     margin-right: -15%;
 }
 
+/*adjusts the position, size and background color for the block of the intro
+in the main page*/
 .intro {
     margin: 1%;
     padding: 0%;
     background-color: rgba(195, 227, 233, 0.253);
 }
 
+/*adjusts the size of the block and centers the txt
+in about-us.html*/
+.about-us-section {
+    width: 100%;
+    text-align: center;
+}
+
+/*make the font white and adjusts the size and position of the blocks inside
+the block of about-us-section in about-us.html*/
 .sectionContentTwoE1 {
     color: white;
     margin-bottom: 20%;
 }
 
-.about-us-section {
-    width: 100%;
-    text-align: center;
+/*it makes the font color of a paragraph in intel-i7.html black so it can
+be visible due to the background*/
+#txtBlack {
+    color: black;
 }
+
+/*it creates a shadow for the images on about-us*/
+#imgShad img{
+    box-shadow: black 0px 0px 40px;
+}
+
+
 
 
 
