@@ -4,8 +4,8 @@
 
 body {
     margin: 0;
-    background-color: rgba(224, 255, 255, 0);
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(32, 32, 32, 0.089);
+    font-family: 'Calibri', Times, serif;
 }
 
 main {
@@ -31,7 +31,7 @@ header {
 
 #navigation {
     float: right;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri', Times, serif;
     padding: 2em 2em;
 
 }
@@ -99,16 +99,17 @@ footer {
 .mainSection,
 .sectionContent {
     float: left;
-
+    
 }
 
 .mainSection {
     width: 100%;
     text-align: center;
+
 }
 
 .sectionContent {
-
+    background-color: white;
     width: 400px;
     margin: 5.93%;
     margin-bottom: 2%;
@@ -124,7 +125,7 @@ footer {
 }
 
 .sectionDescr {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri', Times, serif;
     font-size: large;
     font-weight: bold;
     font-style: oblique;
@@ -137,7 +138,7 @@ footer {
 }
 
 .productsDescr {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri', Times, serif;
     font-size: large;
     font-style: oblique;
     text-align: center;
@@ -162,4 +163,11 @@ form {
     margin-right: -15%;
 }
 
+.intro {
+    border: solid 1px;
+    margin: 1%;
+    margin-bottom: -6%;
+    padding: 0%;
+    background-color: rgba(195, 227, 233, 0.253);
+}
 
