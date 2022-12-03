@@ -149,3 +149,17 @@ footer {
     height: 400px;
   }
 
+tr {
+    background-color: #f2f2f2;
+}
+
+form {
+    margin-bottom: 2%;
+    margin-right: 70%;
+}
+
+#txtProof {    
+    margin-right: -15%;
+}
+
+
