@@ -257,53 +257,50 @@ be visible due to the background*/
 
 #productDescription{
     box-shadow: black 0px 0px 10px;
-    font-size: 20px;
-    width:40%;
+    font-size: 24px;
+    width:50%;
     box-sizing:border-box;
     float:left;
     margin-left:10%;
     margin-right:5%;
     margin-top:1%;
     margin-bottom:5%;
-    padding:20px;
     border-radius:100px 20px;
     background-color: rgba(195, 227, 233, 0.253);
     padding: 2%;
-
 }
 
-
-.table{
-    
-    border: solid;
+#productDescription #code {
+    font-size: 16px;
 }
+
 
 .table-1, .table-2 {
     padding: 1%;
     background-color: rgba(195, 227, 233, 0.253);
     box-shadow: black 0px 0px 10px;
     border-radius:70px 20px;
-    box-sizing: border-box;
-    
+    width: 600px;
+    height: 400px;
 }
 
 .table-1 {
     float:left;
-    margin: 2% 5% 1% 15% ;
+    margin: 2% 0% 1% 15% ;
 }
 
 .table-2 {
     float:right;
-    margin: 2% 15% 1% 5% ;
-    padding-bottom: 6%;
+    margin: 2% 15% 1% 0% ;
 }
 
 td, thead{
     font-size: 24px;
     box-shadow: rgba(172, 171, 196, 0.226) 0px 0px 10px;
     border-radius:10px 10px;
-    
 }
+
+
 .elementRow .sectionFourElements{
     width:15%;
     display:block;
