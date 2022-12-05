@@ -4,7 +4,7 @@ body {
     height: 100%;
     background-color: rgba(32, 32, 32, 0.089);
     font-family: 'Calibri', Times, serif;
-    background-image: url(images/background.jpg);
+    background-image: url(images/v617batch2-bb-01-technology.jpg);
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ header {
     width: 100%;
     height: 5em;
     align-items: center;
-    background-color: rgba(119, 136, 153, 0.527);
+    background-color: rgb(54, 130, 180);
     top: 0;
     right: 0;
     clear: left;
@@ -36,7 +36,8 @@ header {
 #navigation {
     float: right;
     font-family: 'Calibri', Times, serif;
-    padding: 2em 2em;
+    font-size: 24px;
+    padding: 1em 1em;
 
 }
 
@@ -61,31 +62,36 @@ header {
 /*styles the text on tech.html*/
 .techDescr {
     font-family: 'Calibri', Times, serif;
-    font-size: larger;
+    font-size: 26px;
     font-weight: bold;
     font-style: oblique;
     text-align: left;
+    margin-bottom: 4%;
 }
 
 /*styles the menu on every page and prepares for a hover*/
 .navItem {
     text-decoration: none;
     color: white;
-    padding: 5px;
-    transition: all 0.1s ease-in-out 0.05s;
+    padding: 1em;
+    transition: all 0.15s ease-in-out 0.05s;
+    border-radius: 80px 10px;
 }
 
 /*makes the menu hover with a smooth short animation*/
 .navItem:hover {
-    color: lightblue;
-    font-size: large;
-    transition: all 0.1s ease-in-out 0.05s;
+    color: rgb(221, 233, 236);
+    background-color: rgb(37, 88, 122);
+    transition: all 0.15s ease-in-out 0.05s;
+    padding: 0.8em;
+    opacity: 1
 }
 
 /*styles the txt on the main page*/
 .pageTitle {
     text-align: center;
     font-size: 24px;
+    padding-bottom: 1px;
 }
 
 /*styles some headers on all pages*/
@@ -100,10 +106,14 @@ footer {
     width: 100%;
     margin-top: 4.6%;
     align-items: center;
-    background-color: rgba(119, 136, 153, 0.527);
+    background-color: rgb(54, 130, 180);
     bottom: 0;
     clear: left;
     text-align: center;
+}
+
+footer a {
+    color: inherit;
 }
 
 /*puts the blocks that are used on almost every page, on the left and uses
@@ -111,7 +121,7 @@ footer {
 .mainSection,
 .sectionContent {
     float: left;
-    color: black;
+    color: white;
 }
 
 /*adjusts the width of the blocks and aligns the txt on the center*/
@@ -125,9 +135,9 @@ adjusts the position of context, makes the border more circular
 ,it creates a shadow on the block
 and it prepares for the hover animation*/
 .sectionContent {
-    background-color: white;
+    background-color: rgba(71, 176, 236, 0.432);
     width: 450px;
-    margin: 0% 4% 4% 4%;
+    margin: 0% 4.5% 2% 4.5%;
     box-shadow: black 0px 0px 10px;
     border-radius: 80px;
     padding-bottom: 20px;
@@ -149,13 +159,13 @@ when it hovers the shadow becomes more blury*/
     font-style: oblique;
     text-align: center;
     overflow: auto;
-    color: black;
+    color: white;
     
 }
 
 /*it removes the style of a hyperlink to blend better with block
 ,since the wholes block is a hyperlink*/
-.sectionLink {
+.sectionLink{
     text-decoration: none;
     color: inherit;
 }
@@ -163,7 +173,12 @@ when it hovers the shadow becomes more blury*/
 /*it changes the color on the submenu so it can be more visible (inteli7.html,
 products-pc-parts.html, products-phones.html)*/
 .history a {
-    color: rgb(233, 221, 62);
+    color: rgb(255, 242, 67);
+}
+
+.history {
+    margin-top: 2%;
+    margin-left: 2%;
 }
 
 /*makes images have curves and adjusts the size of them*/
@@ -174,46 +189,45 @@ products-pc-parts.html, products-phones.html)*/
     border-radius: 100px;
   }
 
+  .curvyImg2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    
+  }
+
 /*makes images not appear distorted and adjusts their position*/
 .fixImg {
     margin: 2%;
-    object-fit: cover;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
 }
 
-/*adjusts the position of the form in tech.html*/
-form {
-    margin-bottom: 2%;
-    margin-right: 70%;
-}
-
-/*it adjusts the size for the block that asks for a picture of the receipt,
-so that the asterisk(*) on ther right is on the right spot*/
-#txtProof {    
-    margin-right: -15%;
-}
 
 /*adjusts the position, size and background color for the block of the intro
 in the main page*/
 .intro {
     margin: 1%;
     padding: 0%;
-    background-color: rgba(195, 227, 233, 0.253);
+    background-color: rgba(71, 176, 236, 0.432);
 }
 
 /*adjusts the size of the block and centers the txt
 in about-us.html*/
 .about-us-section {
     width: 100%;
-    text-align: center;
 }
 
 /*make the font white and adjusts the size and position of the blocks inside
 the block of about-us-section in about-us.html*/
-.sectionContentTwoE1 {
+.sectionContentTwoEl {
+    font-size: 20px;
+    text-align: center;
+    width: 30%;
     color: white;
-    margin-bottom: 20%;
+    margin: 1% 8% 1% 8%;
+    float: left;
 }
 
 /*it makes the font color of a paragraph in intel-i7.html black so it can
@@ -226,9 +240,6 @@ be visible due to the background*/
 #imgShad img{
     box-shadow: black 0px 0px 40px;
 }
-
-
-
 
 /*Added Code */
 
@@ -253,8 +264,6 @@ be visible due to the background*/
     padding:15px;
 }
 
-
-
 #productDescription{
     box-shadow: black 0px 0px 10px;
     font-size: 24px;
@@ -266,18 +275,32 @@ be visible due to the background*/
     margin-top:1%;
     margin-bottom:5%;
     border-radius:100px 20px;
-    background-color: rgba(195, 227, 233, 0.253);
+    background-color: rgba(71, 176, 236, 0.432);
     padding: 2%;
 }
+
+#categories {
+    font-size: 22px;
+    font-family: 'Calibri', Times, serif; 
+}
+
+#categories a{
+    color: inherit;
+}
+
+
+.header2 {
+    font-size: 30px; 
+}
+
 
 #productDescription #code {
     font-size: 16px;
 }
 
-
 .table-1, .table-2 {
     padding: 1%;
-    background-color: rgba(195, 227, 233, 0.253);
+    background-color: rgba(71, 176, 236, 0.432);
     box-shadow: black 0px 0px 10px;
     border-radius:70px 20px;
     width: 600px;
@@ -296,7 +319,7 @@ be visible due to the background*/
 
 td, thead{
     font-size: 24px;
-    box-shadow: rgba(172, 171, 196, 0.226) 0px 0px 10px;
+    box-shadow: rgba(148, 189, 190, 0.068) 0px 0px 10px;
     border-radius:10px 10px;
 }
 
@@ -328,5 +351,58 @@ td, thead{
     transform: scale(1.1);
     box-shadow: black 0px 0px 30px;
 }
+
+/*adjusts the position of the form in tech.html*/
+form{
+    box-shadow: black 0px 0px 30px;
+    border-radius: 80px;
+    margin-bottom: 2%;
+    margin-right: 70%;
+    padding: 2%;
+    background-color: rgba(71, 176, 236, 0.432);
+}
+
+form input {
+    box-shadow: black 0px 0px 5px;
+    border-radius: 80px;
+    margin-left: 1%;
+    height: 22px;
+}
+
+form label {
+    font-size: 22px;
+}
+
+form legend {
+    margin-top: -10%;
+}
+
+form textarea {
+    box-shadow: black 0px 0px 5px;
+    border-radius: 10px;
+}
+
+/*it adjusts the size for the block that asks for a picture of the receipt,
+so that the asterisk(*) on ther right is on the right spot*/
+#txtReceipt {    
+    margin-right: -17%;
+    margin-left: 3%;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+#txtName2 {    
+    width: 18em;
+}
+
+#buttons {
+    font-size: 16px;
+}
+
+#buttons:hover {
+    transform: scale(1.02);
+    box-shadow: black 0px 0px 20px;
+}
+
 
 
