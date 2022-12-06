@@ -12,31 +12,32 @@
 
   <nav id="navigation">
     <strong>
-      <a href="index.html" class="navItem" > Αρχική Σελίδα</a> &nbsp;
+      <a href="index.html" class="navItem" >Αρχική Σελίδα</a> &nbsp;
       <a href="product-categories.html" class="navItem">Κατηγορίες προϊόντων</a>&nbsp;
       <a href="about-us.html" class="navItem">Ποιοι είμαστε</a>&nbsp;
       <a href="tech.html" class="navItem">Τεχνική υποστήριξη</a>
     </strong>
-</nav>
+  </nav>
 </header>
   <main>
-    <h2 class="header">Τεχνική Υποστήριξη</h2>
+    <h2 class="header">ΤΕΧΝΙΚΗ ΥΠΟΣΤΗΡΙΞΗ</h2>
     <hr>
+    <article class="techDescr">
+      <h3>Για ό,τι χρειαστείς είμαστε εδώ για σένα!</h3>
+      <p>
+        Αν αντιμετωπίζεις κάποιο τεχνικό ζήτημα με κάποιο προϊον παρακαλούμε
+         συμπλήρωσε την παρακάτω φόρμα επικοινωνιίας!
+      </p>
+    </article>
     <img  class="slidebanner" src="images/tech_.png" alt="tech support">
     <article  class="form">
-      <article class="techDescr">
-        <h3>Για ό,τι χρειαστείς είμαστε εδώ για σένα!</h3>
-        <p>Αν αντιμετωπίζεις κάποιο τεχνικό ζήτημα με κάποιο προϊον παρακαλούμε συμπλήρωσε την παρακάτω φόρμα
-          επικοινωνιίας!</p>
-      </article>
       <form action="/sendData" method="GET">
-        <fieldset>
           <legend>
-            Φόρμα Επικοινωνίας:
+            <h3 class="header">Φόρμα Επικοινωνίας:</h3>
           </legend>
-          <label for="txtName">Ονοματεπώνυμο:</label>
-          <input type="text" id="txtName" name="name" minlength="3" maxlength="40" size="40" required>
-          *
+          <label for="txtName" id="txtName1">Ονοματεπώνυμο:</label>
+          <input type="text" id="txtName2" name="name" minlength="3" maxlength="40" size="40" required>
+          &nbsp*
           <br>
           <label for="txtEmail">E-mail: </label>
           <input type="email" id="txtEmail" name="email" size="40">
@@ -50,8 +51,8 @@
           <input type="text" id="txtCode" name="code" size="15" required>
           *
           <br>
-          <label for="txtProof">Φωτογραφία απόδειξης: </label>
-          <input type="file" id="txtProof" name="proof" accept="image/png, image/jpeg" required>
+          <label for="txtReceipt">Φωτογραφία απόδειξης: </label>
+          <input type="file" id="txtReceipt" name="receipt" accept="image/png, image/jpeg" required>
           *
           <br>
           <label for="txtDate">Ημερομηνία αγοράς:</label>
@@ -61,13 +62,10 @@
           <label for="txtMessage">Σχόλια:</label>
           <br>
           <textarea id="txtMessage" name="message" rows="6" cols="40"></textarea>
-          <br>
-          * Τα πεδία είναι υποχρεωτικά
-        </fieldset>
-        <input type="submit" value="Αποστολή">
-        <input type="reset" value="Καθαρισμός">
+          <p>* Τα πεδία είναι υποχρεωτικά</p>
+        <input id="buttons" type="submit" value="Αποστολή">
+        <input id="buttons" type="reset" value="Καθαρισμός">
       </form>
-      <br><br><br>
     </article>
   </main>
   <footer>
