@@ -70,17 +70,29 @@ header img:hover {
 .techDescr {
     max-width: 100%;
     font-family: 'Calibri', Times, serif;
+<<<<<<< HEAD
     font-size: 24px;
     font-weight: bold;
     font-style: oblique;
     text-align: center;
+=======
+    font-size: 26px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: left;
+    margin-bottom: 4%;
+>>>>>>> 9c6604fccb539a300bbd72338cbccb1fd2bc9545
 }
 
 /*styles the menu on every page and prepares for a hover*/
 .navItem {
     text-decoration: none;
     color: white;
+<<<<<<< HEAD
     padding: 0.8em;
+=======
+    padding: 1em;
+>>>>>>> 9c6604fccb539a300bbd72338cbccb1fd2bc9545
     transition: all 0.15s ease-in-out 0.05s;
     border-radius: 80px 10px;
 }
@@ -92,6 +104,16 @@ header img:hover {
     transition: all 0.15s ease-in-out 0.05s;
     padding: 0.8em;
     opacity: 1
+<<<<<<< HEAD
+=======
+}
+
+/*styles the txt on the main page*/
+.pageTitle {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 1px;
+>>>>>>> 9c6604fccb539a300bbd72338cbccb1fd2bc9545
 }
 
 /*styles some headers on all pages*/
@@ -148,6 +170,10 @@ in the main page*/
     font-size: 22px;
 }
 
+footer a {
+    color: inherit;
+}
+
 /*puts the blocks that are used on almost every page, on the left and uses
  black font so the txt can be visible*/
 .mainSection,
@@ -168,8 +194,13 @@ adjusts the position of context, makes the border more circular
 and it prepares for the hover animation*/
 .sectionContent {
     background-color: rgba(71, 176, 236, 0.432);
+<<<<<<< HEAD
     width: 400px;
     margin: 2% 5.93% 1% 5.93%;
+=======
+    width: 450px;
+    margin: 0% 4.5% 2% 4.5%;
+>>>>>>> 9c6604fccb539a300bbd72338cbccb1fd2bc9545
     box-shadow: black 0px 0px 10px;
     border-radius: 80px;
     padding-bottom: 20px;
@@ -220,11 +251,17 @@ products-pc-parts.html, products-phones.html)*/
     color: rgb(255, 242, 67);
 }
 
+<<<<<<< HEAD
 
 .history {
     margin-top: 4%;
     margin-left: 2%;
     margin-bottom: -5%;
+=======
+.history {
+    margin-top: 2%;
+    margin-left: 2%;
+>>>>>>> 9c6604fccb539a300bbd72338cbccb1fd2bc9545
 }
 
 /*makes images have curves and adjusts the size of them*/
@@ -242,14 +279,36 @@ products-pc-parts.html, products-phones.html)*/
     
   }
 
+  .curvyImg2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    
+  }
+
 /*makes images not appear distorted and adjusts their position*/
 .fixImg {
+<<<<<<< HEAD
     margin: 5%;
+=======
+    margin: 2%;
+>>>>>>> 9c6604fccb539a300bbd72338cbccb1fd2bc9545
     width: 250px;
     height: 250px;
     border-radius: 20px;
 }
 
+<<<<<<< HEAD
+=======
+
+/*adjusts the position, size and background color for the block of the intro
+in the main page*/
+.intro {
+    margin: 1%;
+    padding: 0%;
+    background-color: rgba(71, 176, 236, 0.432);
+}
+>>>>>>> 9c6604fccb539a300bbd72338cbccb1fd2bc9545
 
 /*adjusts the size of the block and centers the txt
 in about-us.html*/
